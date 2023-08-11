@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
-* main - Entry point
-*
-* Description: print all alphabet letters
-*
-* Return: always 0 (success)
+ *main - Entry point
+ *
+ *Description: print all alphabet letters
+ *
+ *Return: always 0 (success)
 */
 
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 	while (ch <= `z`)
 	{
 		putchar(ch);
-		ch++
+		ch++;
 	}
 	putchar(`\n`);
 
