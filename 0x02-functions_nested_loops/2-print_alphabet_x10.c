@@ -11,13 +11,15 @@
 void print_alphabet_x10(void)
 {
 	int i;
-	char m;
+	char p;
 
-	for (i = 0 ; i < 10 ; i++)
-
+	for (i = 0; i < 10; ++i)
+		print_alphabet();
 	{
-		for (m = 'a' ; m <= 'z' ; m++
-				_putchar(m);
+		for (p = 'a'; p <= 'z'; p++)
+		{
+			_putchar(p);
+		}
+		_putchar('\n');
 	}
-	_putchar('\n');
-	}
+}
