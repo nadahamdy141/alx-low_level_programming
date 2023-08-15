@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- *main - Entry point
+ *print_alphabet -utilizes on the _putchar function to print
  *
  *Description: prints alphabets usin prototype
  *
  *Return: Always 0 (Success)
 */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char i;
 
