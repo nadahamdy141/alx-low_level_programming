@@ -3,7 +3,7 @@
 /**
  *print_alphabet_x10-function that will print alphabet 10x
  *
- *Description: prints alphabets usin prototype
+ *Description: prints alphabets using prototype
  *
  *Return: Always 0 (Success)
 */
@@ -11,14 +11,14 @@
 void print_alphabet_x10(void)
 {
 	int i;
-	char p;
+	char j;
 
 	for (i = 0; i < 10; ++i)
-		print_alphabet();
+		print_alphabet(i);
 	{
-		for (p = 'a'; p <= 'z'; p++)
+		for (j = 'a'; j <= 'z'; j++)
 		{
-			_putchar(p);
+			_putchar(j);
 		}
 		_putchar('\n');
 	}
