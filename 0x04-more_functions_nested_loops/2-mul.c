@@ -3,12 +3,12 @@
 
 /**
  * mul-Multiply two integers.
- * @m: input.
- * @i: output.
+ * @a: input.
+ * @b: output.
  * Return: The result of multiplication.
  */
 
-int mul(int m, int i)
+int mul(int a, int b)
 {
-		return (m * i);
+		return (a * b);
 }
