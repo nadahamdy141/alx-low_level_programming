@@ -18,7 +18,7 @@ char *leet(char *s)
 
 /*  scan through string */
 	st Count = 0;
-		while (s[stCount] != '\0')
+	while (s[stCount] != '\0')
 
 /* check whether leetLetter is found */
 	{
