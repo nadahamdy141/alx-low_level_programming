@@ -12,12 +12,12 @@
  */
 char *leet(char *s)
 {
-	int st count, leetCount;
+	int stcount, leetCount;
 	char leetLetters[] = "aAeEoOtTlL";
 	char leetNums[] = "4433007711";
 
 /*  scan through string */
-	st Count = 0;
+	stCount = 0;
 	while (s[stCount] != '\0')
 
 /* check whether leetLetter is found */
@@ -25,13 +25,13 @@ char *leet(char *s)
 		leetCount = 0;
 		while (leetCount < 10)
 		{
-			if (leetLetters[leetCount] == s[st Count])
+			if (leetLetters[leetCount] == s[stCount])
 			{
-				s[st Count] = leetNums[leetCount];
+				s[stCount] = leetNums[leetCount];
 			}
 			leetCount++;
 		}
-		st Count++;
+		stCount++;
 	}
 	return (s);
 }
