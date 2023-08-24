@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  *print_number - an integer.
  *only the putchar function.
