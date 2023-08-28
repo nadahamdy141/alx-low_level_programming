@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * _strspn - Entry point function that return the lenght
+ * _strspn - Entry point that return the lenght
  * @s: input string 
  * @accept: input string 
  * Return: Always 0 (Success)
