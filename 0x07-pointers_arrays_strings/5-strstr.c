@@ -1,28 +1,26 @@
 #include "main.h"
 /**
- * _strspn - Entry point
- * @s: input
- * @accept: input
+ * _strstr - Entry point
+ * @haystack: input
+ * @needle: input
  * Return: Always 0 (Success)
  */
-unsigned int _strspn(char *s, char *accept)
+char *_strstr(char *haystack, char *needle)
 {
-	unsigned int n = 0;
-	int r;
-
-	while (*s)
+	for (; *haystack != '\0'; haystack++)
 	{
-		for (r = 0; accept[r]; r++)
+		char *i = haystack;
+		char *p = needle;
+
+		while (*i == *p && *p != '\0')
 		{
-			if (*s == accept[r])
-			{
-				n++;
-				break;
-			}
-			else if (accept[r + 1] == '\0')
-				return (n);
+			i++;
+			p++;
 		}
-		s++;
+
+		if (*p == '\0')
+			return (haystack);
 	}
-	return (n);
+
+	return (0);
 }
