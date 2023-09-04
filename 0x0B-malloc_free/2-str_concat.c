@@ -9,7 +9,7 @@
  * Return: NULL if failure
  */
 char *str_concat(char *s1, char *s2)
-{;
+{
 	char *s;
 	int a, i, c, d;
 
