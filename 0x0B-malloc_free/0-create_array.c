@@ -5,7 +5,7 @@
  *initialize it with a specific charachter
  *@size:size of the array
  *@c: charachter to initialize
- *Return: pointer to array 
+ *Return: pointer to array
  */
 char *create_array(unsigned int size, char c)
 {
