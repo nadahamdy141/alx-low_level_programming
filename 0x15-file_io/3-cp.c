@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * read_textfile - function that reads a txt file and prints it to,
  * POSIX standard out.
